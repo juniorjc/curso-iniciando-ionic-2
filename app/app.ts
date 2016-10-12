@@ -6,6 +6,7 @@ import {HomePage} from './pages/home/home';
 import {MenuTestPage} from './pages/menu-test/menu-test';
 import {GeneratedTestPage} from './pages/generated-test/generated-test';
 import {AlertPage} from './pages/alert/alert';
+import {ButtonTestPage} from './pages/button-test/button-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -21,7 +22,8 @@ export class MyApp {
       {component: HomePage, title: 'Home', icon: 'home'},
       {component: MenuTestPage, title: 'Menu Test', icon: 'menu'},
       {component: GeneratedTestPage, title: 'Generated Test', icon: 'home'},
-      {component: AlertPage, title: 'Alert', icon: 'home'}
+      {component: AlertPage, title: 'Alert', icon: 'home'},
+      {component: ButtonTestPage, title: 'Button Test', icon: 'home'},
     ]
 
     platform.ready().then(() => {
