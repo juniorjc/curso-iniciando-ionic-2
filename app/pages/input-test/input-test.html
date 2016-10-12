@@ -1,0 +1,30 @@
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>Input Test</ion-title>
+</ion-navbar>
+
+<ion-content padding class="input-test">
+<ion-list>
+
+  <ion-item>
+    <ion-label floating>Login</ion-label>
+    <ion-input name="login" type="text" [(ngModel)]="login"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Senha</ion-label>
+    <ion-input name="senha" type="password" [(ngModel)]="senha"></ion-input>
+  </ion-item>
+
+
+</ion-list>
+
+<button block (click)="entrar()">Entrar</button>
+
+<p>Login: {{ login }}</p>
+<p>Senha: {{ senha }}</p>
+
+
+</ion-content>

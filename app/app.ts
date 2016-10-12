@@ -9,6 +9,7 @@ import {AlertPage} from './pages/alert/alert';
 import {ButtonTestPage} from './pages/button-test/button-test';
 import {CardTestPage} from './pages/card-test/card-test';
 import {IconTestPage} from './pages/icon-test/icon-test';
+import {InputTestPage} from './pages/input-test/input-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -28,6 +29,7 @@ export class MyApp {
       {component: ButtonTestPage, title: 'Button Test', icon: 'home'},
       {component: CardTestPage, title: 'Card Test', icon: 'home'},
       {component: IconTestPage, title: 'Icon Test', icon: 'home'},
+      {component: InputTestPage, title: 'Input Test', icon: 'star'}
     ]
 
     platform.ready().then(() => {
