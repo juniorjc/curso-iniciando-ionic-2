@@ -13,6 +13,7 @@ import {InputTestPage} from './pages/input-test/input-test';
 import {ListTestPage} from './pages/list-test/list-test';
 import {GridTestPage} from './pages/grid-test/grid-test';
 import {ModalTestPage} from './pages/modal-test/modal-test';
+import {NavigationTestPage} from './pages/navigation-test/navigation-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -26,16 +27,17 @@ export class MyApp {
 
     this.pages = [
       {component: HomePage, title: 'Home', icon: 'home'},
-      {component: MenuTestPage, title: 'Menu Test', icon: 'menu'},
-      {component: GeneratedTestPage, title: 'Generated Test', icon: 'home'},
+      {component: MenuTestPage, title: 'Menu', icon: 'menu'},
+      {component: GeneratedTestPage, title: 'Generated', icon: 'home'},
       {component: AlertPage, title: 'Alert', icon: 'home'},
-      {component: ButtonTestPage, title: 'Button Test', icon: 'home'},
-      {component: CardTestPage, title: 'Card Test', icon: 'home'},
-      {component: IconTestPage, title: 'Icon Test', icon: 'home'},
-      {component: InputTestPage, title: 'Input Test', icon: 'star'},
-      {component: ListTestPage, title: 'List Test', icon: 'home'},
-      {component: GridTestPage, title: 'Grid Test', icon: 'home'},
-      {component: ModalTestPage, title: 'Modal Test', icon: 'home'},
+      {component: ButtonTestPage, title: 'Button', icon: 'home'},
+      {component: CardTestPage, title: 'Card', icon: 'home'},
+      {component: IconTestPage, title: 'Icon', icon: 'home'},
+      {component: InputTestPage, title: 'Input', icon: 'star'},
+      {component: ListTestPage, title: 'List', icon: 'home'},
+      {component: GridTestPage, title: 'Grid', icon: 'home'},
+      {component: ModalTestPage, title: 'Modal', icon: 'home'},
+      {component: NavigationTestPage, title: 'Navigation', icon: 'home'},
     ]
 
     platform.ready().then(() => {
