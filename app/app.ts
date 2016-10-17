@@ -12,6 +12,7 @@ import {IconTestPage} from './pages/icon-test/icon-test';
 import {InputTestPage} from './pages/input-test/input-test';
 import {ListTestPage} from './pages/list-test/list-test';
 import {GridTestPage} from './pages/grid-test/grid-test';
+import {ModalTestPage} from './pages/modal-test/modal-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -34,6 +35,7 @@ export class MyApp {
       {component: InputTestPage, title: 'Input Test', icon: 'star'},
       {component: ListTestPage, title: 'List Test', icon: 'home'},
       {component: GridTestPage, title: 'Grid Test', icon: 'home'},
+      {component: ModalTestPage, title: 'Modal Test', icon: 'home'},
     ]
 
     platform.ready().then(() => {
