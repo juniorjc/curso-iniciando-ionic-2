@@ -15,6 +15,7 @@ import {GridTestPage} from './pages/grid-test/grid-test';
 import {ModalTestPage} from './pages/modal-test/modal-test';
 import {NavigationTestPage} from './pages/navigation-test/navigation-test';
 import {TabTestPage} from './pages/tab-test/tab-test';
+import {ToastTestPage} from './pages/toast-test/toast-test';
 
 @Component({
   templateUrl: 'build/app.html'
@@ -40,6 +41,7 @@ export class MyApp {
       {component: ModalTestPage, title: 'Modal', icon: 'home'},
       {component: NavigationTestPage, title: 'Navigation', icon: 'home'},
       {component: TabTestPage, title: 'Tab', icon: 'home'},
+      {component: ToastTestPage, title: 'Toast', icon: 'home'},
     ]
 
     platform.ready().then(() => {
